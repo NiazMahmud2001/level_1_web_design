@@ -111,7 +111,7 @@ html , body {
    font-weight: 600;
    color: white;
    text-decoration: none;
-   margin-top:50px;
+   margin-top:60px;
    /* background-color: red; */
 }
 
@@ -274,7 +274,7 @@ html , body {
    }
    #page1>nav>.nav_right>.nav_right_elem2{
       height: 50%;
-      transform: translateY(-100%);
+      transform: translateY(130%);
    }
    .nav_right_top{
       transform: translateY(-60%);
@@ -297,8 +297,7 @@ html , body {
       z-index: 100000;
       position: relative;
       height: 50%;
-      padding-bottom: 0;
-      /* background-color: blue; */
+      padding-bottom: 0px;
       overflow: hidden;
    }
 
@@ -891,11 +890,3 @@ html , body {
    }
 }
 
-/* ======================= page5 =========================== */
-#main>#page5{
-   position: relative;
-   width: 100vw;
-   height: 200vh;
-   background-color: aqua;
-   z-index: 1;
-}
