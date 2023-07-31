@@ -70,7 +70,7 @@ var cursor_circle_scale = ()=>{
          distY = Math.abs(distY);
       }
       //console.log(distX+ " " +distY);
-      
+
       prevX = e.clientX;
       prevY = e.clientY;
       //console.log(prevX+ " " +prevY);
@@ -91,6 +91,7 @@ var cursor_circle_scale = ()=>{
          duration: 0.4,
       })
    });
+   //below code if got resizing the cursor follower div back to its original size 
    var temp_posX = 0;
    var temp_posY = 0;
    setInterval(function(){
@@ -482,7 +483,7 @@ if(nav_body_size>=500){
                    document.querySelector("#page4>.page4_wrapper>.page4_bottom")
    ];
 
-
+//cursor image movement on last page =========>>>
    for(let i=0 ; i<3 ; i++){
       page4_divs[i].addEventListener("mouseenter",()=>{
          page4_img_src.src = page4_img_src_array[i];
@@ -520,7 +521,6 @@ if(nav_body_size>=500){
          }
          temp_pg4_x = pg4_prevX; 
       } , 50)
-
 
       page4_divs[i].addEventListener("mouseleave",()=>{
          page4_img_visible.style.display = "initial";
